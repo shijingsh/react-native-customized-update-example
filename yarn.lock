@@ -5659,10 +5659,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-customized-update@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-customized-update/-/react-native-customized-update-0.3.0.tgz#b4b288328b5bdb67a63cf07275ed279630035ab3"
-  integrity sha512-FCeiMBplpMFj0aVX9kJ16L5/mi3PVcNnnRLd9EsOgNZbBLjxG9HgvDfOXY2yuOuy/mS1vwyKGyptqyM7VnNsVA==
+react-native-customized-update@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-customized-update/-/react-native-customized-update-0.3.1.tgz#0daa95ec57c534118721c6a7ea1ac315647c1ca8"
+  integrity sha512-8WTIVjWC92sEvyXua+sxPsmnenj3NE+CTTHqM26nGfV6r2O9kI+rjE2Dr1Q1fPqxE0P9k3SIDpDUVmiTxgRmZg==
 
 react-native@0.63.4:
   version "0.63.4"

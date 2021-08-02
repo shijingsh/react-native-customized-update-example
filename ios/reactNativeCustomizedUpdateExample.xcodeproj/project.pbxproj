@@ -208,7 +208,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7ACB75758405CAB325C662E6 /* [CP] Embed Pods Frameworks */,
 				BEE79AD9F844AF8C3CCF1699 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -231,7 +230,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				DCC1127994BB6D862E19E8DC /* [CP] Embed Pods Frameworks */,
 				741ADCF022A96175CAA1F261 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -477,24 +475,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample/Pods-reactNativeCustomizedUpdateExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7ACB75758405CAB325C662E6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BFDF77314D1FAA8169C58C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -533,24 +513,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests/Pods-reactNativeCustomizedUpdateExample-reactNativeCustomizedUpdateExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DCC1127994BB6D862E19E8DC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample/Pods-reactNativeCustomizedUpdateExample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeCustomizedUpdateExample/Pods-reactNativeCustomizedUpdateExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -737,7 +699,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89DBE23ABA2A8F052F98F4C9 /* Pods-reactNativeCustomizedUpdateExample-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -765,7 +726,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 565290043AD20AEE7BD02926 /* Pods-reactNativeCustomizedUpdateExample-tvOS.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
